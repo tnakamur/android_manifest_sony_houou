@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--
+    * target: SO-02L
+    * rom: TWRP Recovery Project
+    -->
+
+    <!-- Remote -->
+    <remote fetch="https://github.com/tnakamur" name="so02l" />
+	
+    <!-- Device -->
+    <project name="android_device_sony_houou" path="device/sony/houou" 
+remote="so02l" revision="twrp" />
+
+</manifest>
